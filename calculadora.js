@@ -1,0 +1,11 @@
+const sumar = require('./sumar')
+const restar = require('./restar')
+const multiplicar = require('./multiplicar')
+const dividir = require('./dividir')
+
+console.log(sumar(12, 90))
+console.log(restar(90, 3))
+console.log(multiplicar(5, 10))
+console.log(multiplicar(5, 0))
+console.log(dividir(12, 3))
+console.log(dividir(12, 0))
